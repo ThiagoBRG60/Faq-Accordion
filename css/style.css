@@ -23,9 +23,9 @@ main {
 }
 .faq-box {
   width: 600px;
-  height: 580px;
+  height: 570px;
   padding: 40px;
-  top: 150px;
+  top: 162px;
   position: absolute;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
