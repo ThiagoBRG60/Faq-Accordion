@@ -72,6 +72,9 @@ main {
   overflow: hidden;
   transition: 0.3s;
 }
+.question1 {
+  margin-top: 30px;
+}
 .question1 p, .question2 p, .question3 p, .question4 p {
   color: hsl(292, 16%, 49%, 0.8);
 }
