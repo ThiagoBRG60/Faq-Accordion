@@ -29,6 +29,7 @@ main {
   position: absolute;
   border-radius: 15px;
   background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 30px 20px -8px rgb(232,218,241);
 }
 .title {
   display: flex;
@@ -66,11 +67,13 @@ main {
 .question3,
 .question4 {
   position: relative;
-  color: hsl(292, 16%, 49%);
   margin-top: 30px;
   height: 0px;
   overflow: hidden;
   transition: 0.3s;
+}
+.question1 p, .question2 p, .question3 p, .question4 p {
+  color: hsl(292, 16%, 49%, 0.8);
 }
 .accordion h3 {
   cursor: pointer;
