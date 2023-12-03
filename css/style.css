@@ -1,0 +1,88 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  font-size: 100%;
+  list-style-type: none;
+  background-color: hsl(275, 100%, 97%);
+  font-family: "Work Sans";
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.faq-box {
+  width: 600px;
+  height: 580px;
+  padding: 40px;
+  top: 150px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+}
+.title {
+  display: flex;
+  gap: 20px;
+  font-size: 24px;
+  color: hsl(292, 42%, 14%);
+}
+.title img {
+  width: 35px;
+}
+.questions {
+  margin-top: 30px;
+}
+.questions ul {
+  list-style: none;
+}
+.questions li {
+  margin-top: 30px;
+  color: hsl(292, 42%, 14%);
+  border-bottom: 1px solid hsl(275, 100%, 97%);
+}
+.questions li:last-child {
+    border: none;
+}
+.accordion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.accordion img {
+  cursor: pointer;
+}
+.question1,
+.question2,
+.question3,
+.question4 {
+  position: relative;
+  color: hsl(292, 16%, 49%);
+  margin-top: 30px;
+  height: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.accordion h3 {
+  cursor: pointer;
+}
+.accordion h3:hover {
+  color: #ad28eb;
+}
+.question1.visible,
+.question2.visible,
+.question3.visible,
+.question4.visible {
+  transition: all 0.3s;
+  height: 100px;
+}
